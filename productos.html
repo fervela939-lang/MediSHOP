@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediShop | Productos</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #fdf8f5;
+            color: #333;
+        }
+
+        header {
+            background: #e8a0b8;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        header h1 {
+            font-size: 42px;
+        }
+
+        nav {
+            background: white;
+            padding: 18px;
+            text-align: center;
+            box-shadow: 0 2px 8px #ccc;
+        }
+
+        nav a {
+            color: #555;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            color: #d96d91;
+        }
+
+        .titulo {
+            text-align: center;
+            padding: 45px 20px 25px;
+        }
+
+        .titulo h2 {
+            color: #d96d91;
+            font-size: 38px;
+            margin-bottom: 10px;
+        }
+
+        .productos {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            padding: 30px;
+        }
+
+        .producto {
+            background: white;
+            width: 285px;
+            padding: 20px;
+            border-radius: 18px;
+            text-align: center;
+            box-shadow: 0 4px 15px #ddd;
+        }
+
+        .producto img {
+            width: 100%;
+            height: 210px;
+            object-fit: cover;
+            border-radius: 14px;
+            transition: 0.3s;
+        }
+
+        .producto img:hover {
+            transform: scale(1.04);
+        }
+
+        .producto h3 {
+            color: #d96d91;
+            margin: 18px 0 10px;
+        }
+
+        .producto p {
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .boton {
+            display: inline-block;
+            padding: 12px 22px;
+            background: #d96d91;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        .boton:hover {
+            background: #b94f73;
+        }
+
+        footer {
+            background: #e8a0b8;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>MediShop</h1>
+    <p>Comodidad, estilo y color en cada paso</p>
+</header>
+
+<nav>
+    <a href="index.html">Inicio</a>
+    <a href="productos.html">Productos</a>
+    <a href="nosotros.html">Nosotros</a>
+    <a href="contacto.html">Contacto</a>
+</nav>
+
+<section class="titulo">
+    <h2>Nuestros productos</h2>
+    <p>Conoce nuestras diferentes opciones de medias.</p>
+</section>
+
+<section class="productos">
+
+    <div class="producto">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-Kq6krliX3_gLWNA6Xzo_o_EkJPG8qUbwEuWfq-AjGg&s=10"
+             alt="Medias normales MediShop">
+
+        <h3>Medias normales</h3>
+
+        <p>
+            Medias sin diseño, cómodas y perfectas
+            para el uso diario.
+        </p>
+
+        <a href="medias-normales.html" class="boton">
+            Haz clic aquí
+        </a>
+    </div>
+
+
+    <div class="producto">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR-CNIZotDuSFY6sZlUYf99_swJArakjP_lMB9Lx4_vQ&s=10"
+             alt="Medias con diseños sencillos">
+
+        <h3>Medias con diseño sencillo</h3>
+
+        <p>
+            Medias con diseños sencillos para darle
+            un toque diferente a tu estilo.
+        </p>
+
+        <a href="medias-sencillas.html" class="boton">
+            Haz clic aquí
+        </a>
+    </div>
+
+
+    <div class="producto">
+        <img src="https://acdn-us.mitiendanube.com/stores/005/262/844/products/pack-medias-tobilleras-hello-kitty-dama-6-12-pares-98475e8260becba78117693059707608-1024-1024.webp"
+             alt="Medias tobilleras con diseño">
+
+        <h3>Medias tobilleras con diseño</h3>
+
+        <p>
+            Medias cortas y cómodas con diferentes
+            diseños llamativos.
+        </p>
+
+        <a href="medias-tobilleras.html" class="boton">
+            Haz clic aquí
+        </a>
+    </div>
+
+
+    <div class="producto">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn5WkoHTWz4iXCNsvOVRBOoTSTODCAdlM_FSow-eqXQA&s=10"
+             alt="Medias altas con diseño">
+
+        <h3>Medias altas con diseño</h3>
+
+        <p>
+            Medias que llegan más arriba y cuentan
+            con diseños más elaborados.
+        </p>
+
+        <a href="medias-altas.html" class="boton">
+            Haz clic aquí
+        </a>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 MediShop</p>
+</footer>
+
+</body>
+</html>
