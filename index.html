@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediShop | Inicio / home</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #fdf8f5;
+            color: #333;
+        }
+
+        header {
+            background: #e8a0b8;
+            padding: 25px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: white;
+            font-size: 45px;
+        }
+
+        header p {
+            color: white;
+            font-size: 19px;
+            margin-top: 5px;
+        }
+
+        nav {
+            background: white;
+            padding: 18px;
+            text-align: center;
+            box-shadow: 0 2px 8px #ccc;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #555;
+            font-weight: bold;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            color: #d96d91;
+        }
+
+        .principal {
+            text-align: center;
+            padding: 70px 20px 40px;
+        }
+
+        .principal h2 {
+            font-size: 40px;
+            color: #d96d91;
+            margin-bottom: 20px;
+        }
+
+        .principal p {
+            font-size: 20px;
+            max-width: 750px;
+            margin: auto;
+            line-height: 1.7;
+        }
+
+        .imagen-inicio {
+            width: 500px;
+            max-width: 90%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 20px;
+            margin-top: 35px;
+            box-shadow: 0 5px 18px #ccc;
+        }
+
+        .boton {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 15px 32px;
+            background: #d96d91;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+        }
+
+        .boton:hover {
+            background: #b94f73;
+        }
+
+        .tarjetas {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            padding: 40px;
+        }
+
+        .tarjeta {
+            background: white;
+            width: 260px;
+            padding: 30px;
+            border-radius: 18px;
+            text-align: center;
+            box-shadow: 0 3px 12px #ddd;
+        }
+
+        .tarjeta h3 {
+            color: #d96d91;
+            margin-bottom: 12px;
+        }
+
+        .tarjeta p {
+            line-height: 1.5;
+        }
+
+        footer {
+            background: #e8a0b8;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>MediShop</h1>
+    <p>Comodidad, estilo y color en cada paso</p>
+	<p>Comfort, style, and color with every step</p>
+</header>
+
+<nav>
+        <a href="index.html">Inicio / Home</a>
+        <a href="productos.html">Productos / Products</a>
+        <a href="nosotros.html">Nosotros / About us</a>
+        <a href="contacto.html">Contáctanos / Contact</a>
+</nav>
+
+<section class="principal">
+
+    <h2>¡Bienvenidos a MediShop!</h2>
+    <h2>¡Welcome to MediShop!</h2>    
+    <p>
+        Encuentra medias cómodas, de buena calidad y con diseños
+        llamativos para darle estilo y color a cada uno de tus pasos.
+    </p>
+	<p>
+        Find comfortable, high-quality tights with eye-catching designs
+        to add style and color to every step you take.
+    </p>
+
+    <img src="https://i.ibb.co/1tDR3dcz/Whats-App-Image-2026-09-06-at-4-35-47-PM.jpg"
+         alt="Medias con diferentes diseños"
+         class="imagen-inicio">
+
+    <br>
+
+    <a href="productos.html" class="boton">Ver productos / View Products</a>
+
+</section>
+
+<section class="tarjetas">
+
+    <div class="tarjeta">
+        <h3>🧦 Comodidad / comfort</h3>
+        <p>
+            Productos pensados para acompañarte cómodamente
+            durante tus actividades diarias.
+        </p>
+		<p>
+            Products designed to keep you comfortable
+            during your daily activities.
+        </p>
+    </div>
+
+    <div class="tarjeta">
+        <h3>🎨 Estilo / style</h3>
+        <p>
+            Diseños que permiten darle un toque diferente
+            y divertido a tus outfits.
+        </p>
+		<p>
+            Designs that add a unique
+            and fun touch to your outfits.
+        </p>
+    </div>
+
+    <div class="tarjeta">
+        <h3>✨ Variedad / variety </h3>
+        <p>
+            Diferentes tipos de medias para encontrar
+            la opción que más se adapte a ti.
+        </p>
+		<p>
+            Different types of tights to help you find
+            the option that's right for you.
+        </p>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 MediShop - Comodidad, estilo y color en cada paso</p>
+</footer>
+
+</body>
+</html>
